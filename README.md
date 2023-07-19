@@ -17,7 +17,7 @@
 
 - 📫 How to reach me **msachan562000@gmail.com**
 
-- 📄 Know about my experiences Resume <a>https://drive.google.com/file/d/1pOInLOn6w5NJr4HWcjStHn4hSKI_t5dg/view?usp=sharing</a>
+- 📄 Know about my experiences Resume <a href="https://drive.google.com/file/d/1pOInLOn6w5NJr4HWcjStHn4hSKI_t5dg/view?usp=sharing"></a>
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
