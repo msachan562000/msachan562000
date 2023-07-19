@@ -37,5 +37,5 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=msachan562000&show_icons=true&locale=en&layout=compact" alt="msachan562000" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=msachan562000&show_icons=true&locale=en" alt="msachan562000" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=clinicspots-holistic-healthcare&show_icons=true&locale=en" alt="msachan562000" /></p>
 
