@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Sequalize,Django and TypeScript**
 
-- 👯 I’m looking to collaborate on [Clinicspots Doctor App](https://play.google.com/store/apps/details?id=com.clinicspots.doctor)
+- 👯 I’m looking to collaborate on Clinicspots Website.
 
 - 👨‍💻 All of my projects are available at [https://github.com/msachan562000](https://github.com/msachan562000)
 
