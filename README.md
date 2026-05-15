@@ -85,16 +85,24 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
 
 ---
 
+## 🔨 Currently Building
+
+| Project | Stack | Status |
+|---|---|---|
+| **FinX Accelerator** — core banking microservices | NestJS · Kafka · Kong API Gateway · PostgreSQL | 🟢 Active |
+| **AI Orchestration Platform** — multi-agent LLM workflows | Python · LangChain · FastAPI | 🟢 Active |
+| **Pulse Analytics** — real-time data dashboard | Node.js · MongoDB · WebSockets | 🔄 Ongoing |
+
+---
+
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=msachan562000&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show=reviews,prs_merged,prs_merged_percentage" height="175"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=msachan562000&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="175"/>
-</p>
+> 💡 Most of my daily commits live in **private org repos** — enable [private contributions](https://github.com/settings/profile) on your GitHub to see the full picture, or check my [activity on LinkedIn](https://linkedin.com/in/mriganksachan).
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=msachan562000&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+  <img src="https://github-readme-stats.vercel.app/api?username=msachan562000&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show=reviews,prs_merged,prs_merged_percentage&rank_icon=github" height="175"/>
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=msachan562000&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,css" height="175"/>
 </p>
 
 ---
@@ -104,6 +112,15 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=msachan562000&theme=tokyonight&no-frame=true&row=1&column=7" />
 </p>
+
+---
+
+## ⏱️ Coding Activity *(via WakaTime)*
+
+<!--START_SECTION:waka-->
+<!-- Set up WakaTime: https://wakatime.com → install IDE plugin → add WAKATIME_API_KEY to repo secrets → enable waka-readme action -->
+[![wakatime](https://wakatime.com/badge/user/msachan562000.svg)](https://wakatime.com/@msachan562000)
+<!--END_SECTION:waka-->
 
 ---
 
