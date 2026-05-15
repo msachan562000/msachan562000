@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=Hey%2C+I'm+Mrigank+%F0%9F%91%8B;Backend+Engineer+%7C+TypeScript+%26+Node.js;I+design+APIs+that+don't+break+at+3am;Open+to+remote+%26+freelance+work+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=Hey%2C+I'm+Mrigank+%F0%9F%91%8B;Backend+Engineer+%7C+TypeScript+%26+Node.js;5%2B+years+building+APIs+%26+microservices;Currently+%40+US+Technology+%E2%80%94+Fintech+%26+Banking)](https://git.io/typing-svg)
 
 <p>
   <a href="https://linkedin.com/in/mriganksachan">
@@ -32,11 +32,11 @@
 
 ---
 
-I'm a backend engineer with a habit of over-engineering things until they're actually reliable. My stack revolves around **TypeScript, Node.js, and NestJS** for APIs and microservices, with **Python** when data pipelines or ML tooling is involved.
+Backend engineer with **5+ years** designing and shipping APIs, microservices, and data pipelines. Core stack is **TypeScript, Node.js, and NestJS** — with Python for automation and ML tooling when the problem calls for it.
 
-Currently I'm building core banking microservices at **[US Technology](https://github.com/US-TECHNOLOGY-INI01-42988)** — distributed services using Kafka, Kong API Gateway, and BIAN financial standards. Previously shipped a healthcare CRM platform at ClinicSpots used by real sales teams.
+Currently engineering core banking services at **[US Technology](https://github.com/US-TECHNOLOGY-INI01-42988)** — event-driven microservices on Kafka, Kong API Gateway, and BIAN financial standards. Before that, built the appointment and sales CRM at ClinicSpots handling workflows for healthcare sales teams across India.
 
-I'm actively looking for **remote roles** and **freelance projects** — backend APIs, microservices architecture, database design, or anything where reliability and clean code actually matter. If that's you, let's talk.
+**Available for remote roles and freelance projects** — backend API design, microservices architecture, and database-heavy systems. If that fits what you're building, let's talk.
 
 ---
 
@@ -48,17 +48,16 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
 | ⚡ | Event-driven microservices | Kafka · NestJS · Kong API Gateway |
 | 🗄️ | Database design & optimization | PostgreSQL · MySQL · MongoDB · Redis |
 | ☁️ | Cloud deployment & DevOps | AWS · Docker · CI/CD · Heroku |
-| 🐍 | Scripting, automation & data | Python · Django · Pandas · Seaborn |
-| 🧩 | Full-stack when needed | PHP · Laravel · HTML · CSS · JS |
+| 🐍 | Scripting, automation & data | Python · Django · Pandas · Celery |
 
 ---
 
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,cpp,java,php&theme=dark" /><br/><br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,django,laravel&theme=dark" /><br/><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,firebase&theme=dark" /><br/><br/>
+  <img src="https://skillicons.dev/icons?i=ts,js,python&theme=dark" /><br/><br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,django&theme=dark" /><br/><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" /><br/><br/>
   <img src="https://skillicons.dev/icons?i=docker,aws,kafka,git,linux,grafana&theme=dark" />
 </p>
 
@@ -70,10 +69,11 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/msachan562000/ai-orchestration-platform">🤖 AI Orchestration Platform</a></h3>
-      <p>Production-grade multi-model AI platform — DAG workflows, multi-provider LLM routing, observability &amp; cost tracking</p>
+      <p>Multi-model AI platform with hexagonal architecture — DAG workflows, multi-provider LLM routing (OpenAI · Anthropic · Ollama), cost tracking, and observability</p>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+        <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
         <img src="https://img.shields.io/github/last-commit/msachan562000/ai-orchestration-platform?style=flat-square&color=58A6FF&label=updated"/>
       </p>
     </td>
@@ -89,21 +89,20 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/msachan562000/Screen-Resume-with-NLP">🔍 NLP Resume Screener</a></h3>
-      <p>Automated resume screening using NLP — ranks and matches candidates to job descriptions intelligently</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-        <img src="https://img.shields.io/badge/NLP-FF6B6B?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/github/last-commit/msachan562000/Screen-Resume-with-NLP?style=flat-square&color=58A6FF&label=updated"/>
-      </p>
-    </td>
-    <td width="50%" valign="top">
       <h3><a href="https://github.com/msachan562000/vaidam-data-scraper">🕷️ Vaidam Data Scraper</a></h3>
-      <p>Production web scraper for Vaidam Health — structured data extraction pipeline for medical tourism listings</p>
+      <p>Web scraper built for Vaidam Health — structured extraction pipeline for medical tourism listings across multiple pages</p>
       <p>
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
         <img src="https://img.shields.io/github/last-commit/msachan562000/vaidam-data-scraper?style=flat-square&color=58A6FF&label=updated"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://msachan562000.github.io">🌐 Developer Portfolio</a></h3>
+      <p>Personal portfolio — projects, skills, and contact. Built and deployed on GitHub Pages</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+        <img src="https://img.shields.io/website?url=https%3A%2F%2Fmsachan562000.github.io&style=flat-square&label=live&color=brightgreen"/>
       </p>
     </td>
   </tr>
@@ -115,9 +114,7 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
 
 | Project | Stack | Status |
 |---|---|---|
-| **FinX Accelerator** — core banking microservices | NestJS · Kafka · Kong API Gateway · PostgreSQL | 🟢 Active |
-| **AI Orchestration Platform** — multi-agent LLM workflows | Python · LangChain · FastAPI | 🟢 Active |
-| **Pulse Analytics** — real-time data dashboard | Node.js · MongoDB · WebSockets | 🔄 Ongoing |
+| **FinX Accelerator** — BIAN-compliant core banking microservices @ US Technology | NestJS · Kafka · Kong API Gateway · PostgreSQL | 🟢 Active |
 
 ---
 
@@ -128,30 +125,6 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
 <p align="center">
   <img src="https://raw.githubusercontent.com/msachan562000/msachan562000/main/github-metrics.svg" alt="GitHub Metrics" width="100%"/>
 </p>
-
----
-
-## 🏆 Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=msachan562000&theme=tokyonight&no-frame=true&row=1&column=7" />
-</p>
-
----
-
-## ⏱️ Coding Activity
-
-<a href="https://wakatime.com/@msachan562000">
-  <img src="https://wakatime.com/badge/user/msachan562000.svg" alt="wakatime" />
-</a>
-
-<!--START_SECTION:waka-->
-```text
-TypeScript   ██████████░░░░░░░░░░  (activates after WakaTime setup)
-```
-<!--END_SECTION:waka-->
-
-
 
 ---
 
@@ -171,7 +144,8 @@ Backend project? API that needs to scale? Or just want to talk architecture — 
 
 **Email** → msachan562000@gmail.com  
 **LinkedIn** → [linkedin.com/in/mriganksachan](https://linkedin.com/in/mriganksachan)  
-**Resume** → [View here](https://drive.google.com/file/d/1I96Onwp9RMcuH4gTo2bXCCiEjtwEOMQu/view?usp=sharing)
+**Portfolio** → [msachan562000.github.io](https://msachan562000.github.io)  
+**Resume** → [Download / View](https://drive.google.com/file/d/1I96Onwp9RMcuH4gTo2bXCCiEjtwEOMQu/view?usp=sharing)
 
 <div align="center">
   <br/>
