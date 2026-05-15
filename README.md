@@ -144,7 +144,6 @@ Backend project? API that needs to scale? Or just want to talk architecture — 
 
 **Email** → msachan562000@gmail.com  
 **LinkedIn** → [linkedin.com/in/mriganksachan](https://linkedin.com/in/mriganksachan)  
-**Portfolio** → [msachan562000.github.io](https://msachan562000.github.io)  
 **Resume** → [Download / View](https://drive.google.com/file/d/1I96Onwp9RMcuH4gTo2bXCCiEjtwEOMQu/view?usp=sharing)
 
 <div align="center">
