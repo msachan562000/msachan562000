@@ -78,16 +78,6 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/msachan562000/opendataloader-pdf">📄 OpenDataLoader PDF</a></h3>
-      <p>Open-source PDF parser for AI-ready data extraction — automate PDF accessibility and structured output at scale</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/github/last-commit/msachan562000/opendataloader-pdf?style=flat-square&color=58A6FF&label=updated"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h3><a href="https://github.com/msachan562000/Pulse-analytics">📊 Pulse Analytics</a></h3>
       <p>Real-time analytics dashboard — live metrics, event tracking, and WebSocket-powered data streaming</p>
       <p>
@@ -96,6 +86,8 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
         <img src="https://img.shields.io/github/last-commit/msachan562000/Pulse-analytics?style=flat-square&color=58A6FF&label=updated"/>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/msachan562000/Screen-Resume-with-NLP">🔍 NLP Resume Screener</a></h3>
       <p>Automated resume screening using NLP — ranks and matches candidates to job descriptions intelligently</p>
@@ -103,6 +95,15 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
         <img src="https://img.shields.io/badge/NLP-FF6B6B?style=flat-square&logo=python&logoColor=white"/>
         <img src="https://img.shields.io/github/last-commit/msachan562000/Screen-Resume-with-NLP?style=flat-square&color=58A6FF&label=updated"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/msachan562000/vaidam-data-scraper">🕷️ Vaidam Data Scraper</a></h3>
+      <p>Production web scraper for Vaidam Health — structured data extraction pipeline for medical tourism listings</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+        <img src="https://img.shields.io/github/last-commit/msachan562000/vaidam-data-scraper?style=flat-square&color=58A6FF&label=updated"/>
       </p>
     </td>
   </tr>
