@@ -17,7 +17,7 @@ jobs:
       - name: Build font CSS from committed woff2
         run: |
           B64=$(base64 -w 0 .github/firacode.woff2)
-          printf 'METRICS_CSS<<ENDOFCSS\n@font-face{font-family:"Fira Code";font-weight:400 600;src:url("data:font/woff2;base64,%s")format("woff2")}svg,*{font-family:"Fira Code","SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace!important}\nENDOFCSS\n' "$B64" >> "$GITHUB_ENV"
+          printf 'METRICS_CSS<<ENDOFCSS\n@font-face{font-family:"Fira Code";font-weight:400 600;src:url("data:font/woff2;base64,%s")format("woff2")}svg,*{font-family:"Fira Code","SFMono-Regular",Consolas,monospace!important;font-size:11px!important}h1{font-size:15px!important}h2{font-size:12px!important}h3{font-size:11px!important}.contribution.organization{font-size:9px!important}footer{font-size:8px!important}code,span.code{font-size:9px!important}\nENDOFCSS\n' "$B64" >> "$GITHUB_ENV"
 
       - name: Generate metrics
         uses: lowlighter/metrics@latest
