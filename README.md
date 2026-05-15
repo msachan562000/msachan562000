@@ -28,12 +28,14 @@
 
 ## 👨‍💻 About Me
 
-- 🔭 Currently building **[Clead](https://sales.clead.clinicspots.com/login)** — a sales platform at ClinicSpots
-- 🌱 Levelling up in **TypeScript · Sequelize · Django**
-- 🤝 Open to collaborating on interesting backend / full-stack projects
+- 🔭 Currently engineering **FinX Accelerator** — a cloud-native fintech banking microservices platform @ **[US Technology](https://github.com/US-TECHNOLOGY-INI01-42988)**
+- 🏦 Building services with **NestJS · Kafka · Kong API Gateway · BIAN standards** for core banking
+- 🌱 Deep-diving into **Microservices Architecture · Event-Driven Systems · Kafka Streams**
+- 🏆 Competitive programmer — solving DSA on **[LeetCode](https://www.leetcode.com/msachan562000)** & **[HackerRank](https://www.hackerrank.com/@sachanyash123)**
 - ✍️ I write about tech on **[Medium](https://medium.com/@sachanyash123)**
 - 📄 Check out my **[Resume](https://drive.google.com/file/d/1I96Onwp9RMcuH4gTo2bXCCiEjtwEOMQu/view?usp=sharing)**
-- 💬 Ask me about **Node.js · NestJS · TypeScript · System Design**
+- 💬 Ask me about **NestJS · TypeScript · Node.js · Backend Architecture · System Design**
+- 📍 Based in **Navi Mumbai, India**
 - 📬 Reach me at **msachan562000@gmail.com**
 
 ---
@@ -52,7 +54,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=msachan562000&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=msachan562000&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" height="170"/>
   &nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=msachan562000&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170"/>
 </p>
