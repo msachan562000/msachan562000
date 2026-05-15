@@ -97,7 +97,7 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
 
 ## 📊 GitHub Stats
 
-> 💡 Most of my daily commits live in **private org repos** — enable [private contributions](https://github.com/settings/profile) on your GitHub to see the full picture, or check my [activity on LinkedIn](https://linkedin.com/in/mriganksachan).
+> 💡 Most of my daily commits live in **private org repos**. The real picture shows once you [enable private contributions](https://github.com/settings/profile) on GitHub.
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=msachan562000&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show=reviews,prs_merged,prs_merged_percentage&rank_icon=github" height="175"/>
@@ -115,11 +115,16 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
 
 ---
 
-## ⏱️ Coding Activity *(via WakaTime)*
+## ⏱️ Coding Activity
+
+<a href="https://wakatime.com/@msachan562000">
+  <img src="https://wakatime.com/badge/user/msachan562000.svg" alt="wakatime" />
+</a>
 
 <!--START_SECTION:waka-->
-<!-- Set up WakaTime: https://wakatime.com → install IDE plugin → add WAKATIME_API_KEY to repo secrets → enable waka-readme action -->
-[![wakatime](https://wakatime.com/badge/user/msachan562000.svg)](https://wakatime.com/@msachan562000)
+```text
+TypeScript   ██████████░░░░░░░░░░  (activates after WakaTime setup)
+```
 <!--END_SECTION:waka-->
 
 ---
