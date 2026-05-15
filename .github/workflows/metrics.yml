@@ -11,32 +11,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Embed Fira Code font as base64
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Build font CSS from committed woff2
         run: |
-          # Fetch Google Fonts CSS to get actual woff2 URL
-          CSS=$(curl -s "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap"             -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36")
-          # Extract woff2 URL for regular weight Latin subset
-          WOFF2_URL=$(echo "$CSS" | grep -oP "(?<=url\()https://[^)]+\.woff2" | head -1)
-          echo "Downloading: $WOFF2_URL"
-          curl -s "$WOFF2_URL" -o /tmp/firacode.woff2
-          B64=$(base64 -w 0 /tmp/firacode.woff2)
-          echo "Font base64 length: ${#B64}"
-          # Write inline @font-face CSS
-          cat > /tmp/metrics-font.css << CSSEOF
-          @font-face {
-            font-family: 'Fira Code';
-            font-weight: 400 600;
-            src: url('data:font/woff2;base64,${B64}') format('woff2');
-          }
-          svg, * {
-          }
-          CSSEOF
-          # Export as multiline env var for next step
-          {
-            echo 'METRICS_CSS<<ENDOFCSS'
-            cat /tmp/metrics-font.css
-            echo 'ENDOFCSS'
-          } >> "$GITHUB_ENV"
+          B64=$(base64 -w 0 .github/firacode.woff2)
+          printf 'METRICS_CSS<<ENDOFCSS\n@font-face{font-family:"Fira Code";font-weight:400 600;src:url("data:font/woff2;base64,%s")format("woff2")}svg,*{font-family:"Fira Code","SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace!important}\nENDOFCSS\n' "$B64" >> "$GITHUB_ENV"
 
       - name: Generate metrics
         uses: lowlighter/metrics@latest
@@ -49,11 +30,9 @@ jobs:
           config_display: regular
           extras_css: ${{ env.METRICS_CSS }}
 
-          # Full-year contribution heatmap (includes private org commits via GH_TOKEN)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Language breakdown
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -64,7 +43,6 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_recent_days: 90
 
-          # Notable org contributions
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_repositories: yes
