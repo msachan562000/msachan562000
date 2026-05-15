@@ -11,6 +11,33 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Embed Fira Code font as base64
+        run: |
+          # Fetch Google Fonts CSS to get actual woff2 URL
+          CSS=$(curl -s "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap"             -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36")
+          # Extract woff2 URL for regular weight Latin subset
+          WOFF2_URL=$(echo "$CSS" | grep -oP "(?<=url\()https://[^)]+\.woff2" | head -1)
+          echo "Downloading: $WOFF2_URL"
+          curl -s "$WOFF2_URL" -o /tmp/firacode.woff2
+          B64=$(base64 -w 0 /tmp/firacode.woff2)
+          echo "Font base64 length: ${#B64}"
+          # Write inline @font-face CSS
+          cat > /tmp/metrics-font.css << CSSEOF
+          @font-face {
+            font-family: 'Fira Code';
+            font-weight: 400 600;
+            src: url('data:font/woff2;base64,${B64}') format('woff2');
+          }
+          svg, * {
+          }
+          CSSEOF
+          # Export as multiline env var for next step
+          {
+            echo 'METRICS_CSS<<ENDOFCSS'
+            cat /tmp/metrics-font.css
+            echo 'ENDOFCSS'
+          } >> "$GITHUB_ENV"
+
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
@@ -20,9 +47,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
           config_display: regular
-          config_base64: yes
-          extras_css: |
-            @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap');
+          extras_css: ${{ env.METRICS_CSS }}
 
           # Full-year contribution heatmap (includes private org commits via GH_TOKEN)
           plugin_isocalendar: yes
