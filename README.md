@@ -97,12 +97,10 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
 
 ## 📊 GitHub Stats
 
-> 💡 Most of my daily commits live in **private org repos**. The real picture shows once you [enable private contributions](https://github.com/settings/profile) on GitHub.
+> Powered by [lowlighter/metrics](https://github.com/lowlighter/metrics) — includes **private org repo contributions**, full-year heatmap, and real language breakdown.
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=msachan562000&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show=reviews,prs_merged,prs_merged_percentage&rank_icon=github" height="175"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=msachan562000&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,css" height="175"/>
+  <img src="https://raw.githubusercontent.com/msachan562000/msachan562000/main/github-metrics.svg" alt="GitHub Metrics" width="100%"/>
 </p>
 
 ---
@@ -127,11 +125,7 @@ TypeScript   ██████████░░░░░░░░░░  (acti
 ```
 <!--END_SECTION:waka-->
 
----
 
-## 📈 Activity
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=msachan562000&theme=tokyo-night&hide_border=true&area=true&custom_title=Mrigank's%20Contribution%20Graph)](https://github.com/Ashutosh00710/github-readme-activity-graph)
 
 ---
 
