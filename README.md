@@ -66,22 +66,47 @@ I'm actively looking for **remote roles** and **freelance projects** — backend
 
 ## 🚀 Things I've Built
 
-<p align="center">
-  <a href="https://github.com/msachan562000/ai-orchestration-platform">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=msachan562000&repo=ai-orchestration-platform&theme=tokyonight&hide_border=true&description_lines_count=2" />
-  </a>
-  <a href="https://github.com/msachan562000/opendataloader-pdf">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=msachan562000&repo=opendataloader-pdf&theme=tokyonight&hide_border=true&description_lines_count=2" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/msachan562000/Pulse-analytics">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=msachan562000&repo=Pulse-analytics&theme=tokyonight&hide_border=true&description_lines_count=2" />
-  </a>
-  <a href="https://github.com/msachan562000/Screen-Resume-with-NLP">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=msachan562000&repo=Screen-Resume-with-NLP&theme=tokyonight&hide_border=true&description_lines_count=2" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/msachan562000/ai-orchestration-platform">🤖 AI Orchestration Platform</a></h3>
+      <p>Production-grade multi-model AI platform — DAG workflows, multi-provider LLM routing, observability &amp; cost tracking</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+        <img src="https://img.shields.io/github/last-commit/msachan562000/ai-orchestration-platform?style=flat-square&color=58A6FF&label=updated"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/msachan562000/opendataloader-pdf">📄 OpenDataLoader PDF</a></h3>
+      <p>Open-source PDF parser for AI-ready data extraction — automate PDF accessibility and structured output at scale</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/github/last-commit/msachan562000/opendataloader-pdf?style=flat-square&color=58A6FF&label=updated"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/msachan562000/Pulse-analytics">📊 Pulse Analytics</a></h3>
+      <p>Real-time analytics dashboard — live metrics, event tracking, and WebSocket-powered data streaming</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+        <img src="https://img.shields.io/github/last-commit/msachan562000/Pulse-analytics?style=flat-square&color=58A6FF&label=updated"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/msachan562000/Screen-Resume-with-NLP">🔍 NLP Resume Screener</a></h3>
+      <p>Automated resume screening using NLP — ranks and matches candidates to job descriptions intelligently</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+        <img src="https://img.shields.io/badge/NLP-FF6B6B?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/github/last-commit/msachan562000/Screen-Resume-with-NLP?style=flat-square&color=58A6FF&label=updated"/>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
