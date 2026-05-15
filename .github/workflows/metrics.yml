@@ -20,9 +20,11 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
           config_display: regular
-          config_fonts: Fira+Code
+          config_base64: yes
+          extras_css: |
+            @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap');
 
-          # Full-year contribution heatmap (includes private org commits)
+          # Full-year contribution heatmap (includes private org commits via GH_TOKEN)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
